@@ -1,0 +1,145 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #22343d;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+/* header */
+.header {
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-right: 237px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.9;
+  color: #173a56;
+}
+.nav-list {
+  display: flex;
+  gap: 30px;
+}
+.active {
+  font-weight: 600;
+}
+.nav-link {
+  line-height: 1.7;
+  padding: 26px 0;
+  display: block;
+}
+.header-list-btn {
+  display: flex;
+  margin-left: auto;
+  gap: 21px;
+}
+.header-btn {
+  height: 42px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.header-btn-in {
+  min-width: 105px;
+  border: 1px solid #bcd0e5;
+  background-color: transparent;
+  color: #173a56;
+}
+.header-btn-up {
+  background-color: #02897a;
+  color: #fff;
+  min-width: 113px;
+  border: none;
+}
+/* hero */
+.hero {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-text-wrp {
+  width: 465px;
+}
+.hero-title {
+  font-size: 40px;
+  line-height: 1.5;
+  color: #22343d;
+  margin-bottom: 18px;
+  width: 372px;
+}
+.hero-text {
+  font-size: 18px;
+  line-height: 1.55556;
+  color: #22343d;
+  margin-bottom: 45px;
+}
+.hero-list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.hero-btn-start {
+  min-width: 178px;
+  height: 53px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background-color: #02897a;
+  border-radius: 4px;
+  border: none;
+}
+.hero-btn-start:hover,
+.hero-btn-start:focus {
+  background-color: #173a56;
+}
+.hero-btn-watch {
+  min-width: 164px;
+  height: 23px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  color: #02897a;
+  background-color: transparent;
+  border: none;
+}
+.hero-btn-watch:hover,
+.hero-btn-watch:focus {
+  color: #173a56;
+}

@@ -4,40 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business promotion</title>
-  </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inder&family=Montserrat:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
   <body>
     <!-- header -->
-    <header>
-      <nav>
-        <a href=""><img src="./images/logo.svg" alt="logo" />Product</a>
-        <ul>
-          <li><a href="">Product</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="">Resources</a></li>
+    <header class="header">
+      <div class="container header-container">
+      <nav class="nav">
+        <a href="" class="logo"><img src="./images/logo.svg" alt="logo" />Product</a>
+        <ul class="nav-list">
+          <li><a class="nav-link active" href="">Product</a></li>
+          <li><a class="nav-link"href="./customers.html">Customers</a></li>
+          <li><a class="nav-link"href="./pricing.html">Pricing</a></li>
+          <li><a class="nav-link"href="">Resources</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
+      <ul class="header-list-btn">
+        <li class="header-item-btn"><button class="header-btn header-btn-in" type="button">Sign In</button></li>
+        <li class="header-item-btn"><button class="header-btn header-btn-up" type="button">Sign Up</button></li>
       </ul>
+    </div>
     </header>
     <main>
       <!-- hero -->
-      <section>
-        <h1>Work at the speed of thought</h1>
-        <p>
+      <section class="hero">
+        
+        <div class="container hero-container">
+          <div class="hero-text-wrp">
+        <h1 class="hero-title">Work at the speed of thought</h1>
+        <p class="hero-text">
           Tools, tutorials, design and innovation experts, all in one place! The
           most intuitive way to imagine your next user experience.
         </p>
-        <ul>
-          <li><button type="button">Get started</button></li>
-          <li><button type="button">Watch the Video</button></li>
+        <ul class="hero-list">
+          <li class="hero-item"><button class="hero-btn hero-btn-start" type="button">Get started</button></li>
+          <li class="hero-item"><button class="hero-btn hero-btn-watch" type="button">Watch the Video</button></li>
         </ul>
+      </div>
         <img src="./images/hero-img.png" alt="people" width="610" />
+      </div>
       </section>
       <!-- Product -->
       <section>
+        <div class="container">
         <h2>Product was Built Specifically for You</h2>
         <ul>
           <li>
@@ -58,9 +71,11 @@
           </li>
         </ul>
         <button type="button">SIGN UP NOW</button>
+      </div>
       </section>
       <!-- Management -->
       <section>
+        <div class="container">
         <h2><span>Effortless Validation for</span> Management</h2>
         <p>
           The Myspace page defines the individual, his or her characteristics,
@@ -78,14 +93,16 @@
             <h3>Alterationists</h3>
             <p>
               If you are looking for a new way to promote your business that
-              won’t cost you more money,
+              won't cost you more money,
             </p>
           </li>
         </ul>
         <img src="./images/management-img.png" alt="document" width="540" />
+      </div>
       </section>
       <!-- Customer  -->
       <section>
+        <div class="container">
         <img src="./images/support-img.png" alt="laptop" />
         <h2><span>Easier decision making for</span> Customer Support</h2>
         <p>
@@ -100,9 +117,11 @@
           </li>
           <li>We track the markets daily and know where the savings are.</li>
         </ul>
+      </div>
       </section>
       <!-- Collaborative -->
       <section>
+        <div class="container">
         <h2><span>Optimisation for</span> Collaborative</h2>
         <p>
           Few would argue that, despite the advancements of feminism over the
@@ -121,14 +140,16 @@
             <h3>Alterationists</h3>
             <p>
               If you are looking for a new way to promote your business that
-              won’t cost you more money,
+              won't cost you more money,
             </p>
           </li>
         </ul>
         <img src="./images/collaboration-img.png" alt="images" width="540" />
+      </div>
       </section>
       <!-- Process -->
       <section>
+        <div class="container">
         <h2>Quick & Easy Process</h2>
         <p>
           Do you require some help for your project: Conception workshop,
@@ -153,9 +174,11 @@
           </li>
         </ul>
         <button type="button">Contact our expert</button>
+      </div>
       </section>
       <!-- Contents Strategies -->
       <section>
+        <div class="container">
         <h2>Contents Strategies</h2>
         <p>
           We focus on ergonomics and meeting you where you work. It's only a
@@ -184,9 +207,11 @@
             </a>
           </li>
         </ul>
+      </div>
       </section>
       <!-- Price  -->
       <section>
+        <div class="container">
         <h2>Price Table</h2>
         <p>We offer competitive price</p>
         <ul>
@@ -248,9 +273,11 @@
             <button type="button">Order Now</button>
           </li>
         </ul>
+      </div>
       </section>
       <!-- Clients Say -->
       <section>
+        <div class="container">
         <h2>What Clients Say</h2>
         <p>
           Problems trying to resolve the conflict between the two major realms
@@ -285,16 +312,21 @@
             <p>Designer</p>
           </li>
         </ul>
+      </div>
       </section>
       <!-- Join 100 Compannies -->
        <section>
+        <div class="container">
         <h2></h2>
         <p>Join 100 Compannies who boost their business with Product</p>
         <button type="button">Get This</button>
         <img src="./images/graphics.png" alt="document"></section>
+      </div>
     <!-- footer -->
     <footer>
-      <a href=""><img src="./images/logo.svg" alt="" />Product</a>
+      <div class="container">
+      <a href=""><img src="./images/logo.svg" alt=""/>Product
+      </a>
       <b>Resource</b>
 
       <ul>
@@ -312,6 +344,7 @@
       </ul>
       <b>knowing you're always on the best energy deal. </b>
       <p>Made With Love By Figmaland All Right Reserved</p>
+    </div>
     </footer>
   </body>
 </html>
